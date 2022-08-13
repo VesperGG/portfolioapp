@@ -9,6 +9,7 @@ const GLobalStyle =  createGlobalStyle`
 
 body {
     background-color: #1b1b1b;
+    font-family: 'Roboto', sans-serif;
 }
 button {
     font-weight: bold;
@@ -19,6 +20,7 @@ button {
     background: transparent;
     color:white;
     transition: all 0.5s ease;
+    font-family: 'Roboto', sans-serif;
     &:hover {
         background: #23d997;
         color:white;
