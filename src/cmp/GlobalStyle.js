@@ -9,7 +9,7 @@ const GLobalStyle =  createGlobalStyle`
 
 body {
     background-color: #1b1b1b;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'DynaPuff', cursive;
 }
 button {
     font-weight: bold;
@@ -37,6 +37,7 @@ h2 {
     }
     h4 {
         font-weight: bold;
+        font-size: 2rem;
     }
     a{
         font-size: 1.1rem;
