@@ -3,14 +3,22 @@ import './App.css';
 import GLobalStyle from './cmp/GlobalStyle';
 import Nav from './cmp/Nav';
 import AboutUs from './pages/AboutUs'
+import OurWork  from './pages/OurWork';
+import ContactUs from './pages/ContactUs';
+//Router
+import {Routes,Route} from 'react-router-dom';
 //global style
 
 function App() {
   return (
     <div className="App">
-      <Nav/>
       <GLobalStyle/>
-      <AboutUs/>
+      <Nav/>
+      <Routes>
+      <Route  path="/" element={<AboutUs/>}/>
+      <Route  path="/work" element={<OurWork/>}/>
+      <Route  path="/contact" element={<ContactUs/>}/>
+      </Routes>
     </div>
   );
 }
