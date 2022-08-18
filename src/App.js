@@ -15,7 +15,7 @@ function App() {
       <GLobalStyle/>
       <Nav/>
       <Routes>
-      <Route  path="/" element={<AboutUs/>}/>
+      <Route  exact path="/" element={<AboutUs/>}/>
       <Route  path="/work" element={<OurWork/>}/>
       <Route  path="/contact" element={<ContactUs/>}/>
       </Routes>
