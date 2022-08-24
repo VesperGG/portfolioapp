@@ -12,7 +12,7 @@ const OurWork = () => {
        =    <Movie>
            <h2>The Gren Book</h2>
            <div className="line"></div>
-           <Link to="/greenbook">
+           <Link to="greenbook">
             <img src={greenbook} alt="greenbook"/>
             </Link>
             </Movie>
@@ -20,7 +20,7 @@ const OurWork = () => {
             <Movie>
             <h2>Dota2</h2>
             <div className="line"></div>
-            <Link to="/dota2">
+            <Link to="dota2">
             <img src={dota2} alt="dota2"/>
             </Link>
             </Movie>
@@ -28,7 +28,7 @@ const OurWork = () => {
             <Movie>
             <h2>Treasure Planet</h2>
             <div className="line"></div>
-            <Link to="/treasureplanet">
+            <Link to="treasureplanet">
             <img src={treasurepl} alt="treasure planet"/>
             </Link> 
             </Movie>
